@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.font-image {
+    display: flex;
+    justify-content: center;
+    margin-top: -280px;
+}
+.container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    margin-top: -300px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+    color: #333;
+}
+
+input[type="text"] {
+    border: none;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+}
+
+.button-section{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.steps {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.steps p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.next-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.next-button a {
+    display: inline-block;
+    font-size: xx-large;
+    font-weight: 800;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.next-button a:hover {
+    background-color: #45a049;
+}
+
+/* Home Section */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Header styles */
+header {
+    position: relative;
+    text-align: center;
+}
+
+.header-background {
+    width: 100%;
+    margin-top: -80px;
+}
+
+.title-section h1, p{
+    text-align: center;
+}
+
+.mobile-navigation {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url('../Assets/Mask\ Group\ 3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -40px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.previous-button {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+/* Section styles */
+.header-background {
+    width: 100%;
+    margin-top: -80px;
+}
+
+.title-section h1, p{
+    text-align: center;
+}
+
+.title-section p{
+    color: #555;
+}
+
+section {
+    padding: 20px;
+}
+
+.nutritional-information h2,
+.ingredients-section h2 {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: -1px 5px 19px 0px rgba(0,0,0,0.43);
+    -webkit-box-shadow: -1px 5px 19px 0px rgba(0,0,0,0.43);
+    -moz-box-shadow: -1px 5px 19px 0px rgba(0,0,0,0.43);
+}
+
+.card-item h1:hover{
+    color: red;
+}
+
+.card-item p{
+    color: #555;
+}
+
+.ingredient-card {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: -1px 5px 19px 0px rgba(0,0,0,0.43);
+    -webkit-box-shadow: -1px 5px 19px 0px rgba(0,0,0,0.43);
+    -moz-box-shadow: -1px 5px 19px 0px rgba(0,0,0,0.43);
+}
+
+.ingredient-item {
+    text-align: center;
+    flex-basis: 22%;
+}
+
+.ingredient-item img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+/* Footer styles */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #c4bfbf;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 0px 12px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    margin: 0 5px;
+}
+
+.home-icon{
+    background-color: #45a049;
+    display: flex;
+}
+.home-icon img{
+    margin-top: 20px;
+}
+
+
+
+@media (max-width: 599px) {
+    .card-item {
+        width: 100%;
+    }
+
+    .ingredient-item {
+        flex-basis: 48%;
+    }
+}
